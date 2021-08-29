@@ -95,6 +95,15 @@ li {
   list-style: none;
 }
 
+.navmenu li a:hover {
+  letter-spacing:2px;
+  transition: 0.75s;
+  padding:  0.5rem 1rem;
+  border: 2px solid var(--label-clr);
+  color: var(--label-clr);
+  border-radius:0.5rem;
+}
+
 .home {
   position: absolute;
   right: 3rem;
@@ -250,7 +259,7 @@ li {
 /************Sections-A ***********/
 
 .section-a .sec-container {
-  background: url(/images/release-bkg2.jpg);
+  background: url(release-bkg2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -260,11 +269,11 @@ li {
 
 .sec-container h2 {
   background-color: rgba(0, 0, 0, 0.486);
-  font-size: 4rem;
+  font-size: 3rem;
   z-index: 2;
   letter-spacing: 2px;
   font-weight: 400;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   /* border-radius: 0.5rem; */
   -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
     5px 5px 15px 5px rgba(0, 0, 0, 0);
@@ -273,6 +282,7 @@ li {
   display: inline-block;
   position: absolute;
   top: 1rem;
+  left: 0;
 }
 
 /* ******************************************
@@ -332,7 +342,7 @@ li {
 .slide:nth-child(1),
 .slide:nth-child(10) {
   /* background-color: yellow; */
-  background: url(/images/gmp-origin-x\ 1.png);
+  background: url(gmp-origin-x.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -340,7 +350,7 @@ li {
 
 .slide:nth-child(2),
 .slide:nth-child(11) {
-  background: url(/images/singularity\ 1.png);
+  background: url(singularity.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -348,7 +358,7 @@ li {
 
 .slide:nth-child(3),
 .slide:nth-child(12) {
-  background: url(/images/smk-chromasome\ 1.png);
+  background: url(smk-chromasome.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -356,7 +366,7 @@ li {
 
 .slide:nth-child(4),
 .slide:nth-child(13) {
-  background: url(/images/smk-lockdown\ 1.png);
+  background: url(smk-lockdown.png);
 
   background-size: contain;
   background-position: center;
@@ -365,7 +375,7 @@ li {
 
 .slide:nth-child(5),
 .slide:nth-child(14) {
-  background: url(/images/smk-multiverse\ 1.png);
+  background: url(smk-multiverse.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -373,7 +383,7 @@ li {
 
 .slide:nth-child(6),
 .slide:nth-child(15) {
-  background: url(/images/gmp-origin-x\ 1.png);
+  background: url(gmp-origin-x.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -381,7 +391,7 @@ li {
 
 .slide:nth-child(7),
 .slide:nth-child(16) {
-  background: url(/images/singularity\ 1.png);
+  background: url(singularity.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -389,7 +399,7 @@ li {
 
 .slide:nth-child(8),
 .slide:nth-child(17) {
-  background: url(/images/smk-chromasome\ 1.png);
+  background: url(smk-chromasome.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -397,7 +407,7 @@ li {
 
 .slide:nth-child(9),
 .slide:nth-child(18) {
-  background: url(/images/smk-lockdown\ 1.png);
+  background: url(smk-lockdown.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -448,3 +458,6 @@ footer {
   color:var(--label-clr)
 
 }
+
+
+
