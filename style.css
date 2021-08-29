@@ -509,16 +509,16 @@ li {
 
 /* ******************** showcase *********** */
 .header-content h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: 1px;
-  margin-bottom: 0;
+  margin: 1rem;
 }
 
 .header-content p {
   display: inline-block;
   padding: 1rem;
   font-size: 1.5rem;
-  width: 75%
+  width: 85%
 }
 
 .btn {
@@ -600,12 +600,7 @@ li {
 }
 
 .bcamp {
-  /* background: url(/images/bandcamp.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; */
 
-  /* width: 20%; */
   background: rgba(0, 0, 0, 0.486);
   display: flex;
   flex-direction: column;
@@ -670,16 +665,16 @@ li {
   
   /* ******************** showcase *********** */
   .header-content h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     letter-spacing: 2px;
-    margin-bottom: 1rem;
+    margin: 1rem;
   }
   
   .header-content p {
     display: inline-block;
     padding: 1rem;
     font-size: 1.25rem;
-    width: 75%
+    width: 85%
   }
   
   .btn {
